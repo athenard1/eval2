@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main() {
+    
   std::cout << "**********  Menu véhicule  **********" << std::endl;
   std::cout << "1 - Multimédia" << std::endl;
   std::cout << "2 - Téléphone" << std::endl;
