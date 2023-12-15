@@ -18,4 +18,31 @@ int Choix;
   std::cin >> Choix;
   std::cout << Choix << std::endl;
 
+  if (Choix == 1) 
+  {
+    std::cout << "-Entrée dans le parking\n" ;
+  } 
+      if (Choix == 2) 
+  {
+    std::cout << "-Nombre de places disponibles\n" ;
+  } 
+      if (Choix == 3) 
+  {
+    std::cout << "-Sortie du parking\n" ;
+  }   
+      if (Choix == 4) 
+  {
+    std::cout << "-Quitter\n" ;
+  } 
+  else
+  { if (Choix  > 4)
+    {
+      std::cout << "Choix non valide\n" ;
+    }
+      if (Choix < 1)
+    {
+      std::cout << "Choix non valide\n" ;
+      }
+    }
+  
 }
